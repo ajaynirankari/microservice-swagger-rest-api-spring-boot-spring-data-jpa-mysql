@@ -76,3 +76,19 @@ Test REST API via Swagger
 URL: http://localhost:8080/swagger-ui/index.html
 
 ![image](https://github.com/ajaynirankari/microservice-swagger-rest-api-spring-boot-spring-data-jpa-mysql-one-to-one-mapping/assets/26870634/b4a983a6-4191-4c7a-b729-cae3149f8094)
+
+
+Configure for the Swagger-UI
+----------------------------
+
+Reference Link: https://springdoc.org/
+
+Add below dependency in pom.xml
+```
+   <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      <version>2.2.0</version>
+   </dependency>
+
+```
