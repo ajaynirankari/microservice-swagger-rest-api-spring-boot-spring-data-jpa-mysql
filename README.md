@@ -71,3 +71,8 @@ $ curl -v http://localhost:8080/users | jq
 
 ```
 
+Test REST API via Swagger
+--------------------------
+URL: http://localhost:8080/swagger-ui/index.html
+
+![image](https://github.com/ajaynirankari/microservice-swagger-rest-api-spring-boot-spring-data-jpa-mysql-one-to-one-mapping/assets/26870634/b4a983a6-4191-4c7a-b729-cae3149f8094)
